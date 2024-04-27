@@ -1,0 +1,24 @@
+.bgm{
+    background-color:transparent;border: 2px solid transparent; font-family: CN1;font-size: 17px;
+}
+.bgm1{
+    background-color:transparent;border: 2px solid transparent; font-family: CN1;font-size: 17px;animation: animatebg 5s linear infinite; 
+}
+.bgm:focus {
+    outline: none;  /* 移除默认的蓝色边框 */
+    border: 2px solid transparent;  /* 设置新的边框颜色 */
+  }
+  @keyframes animatebg {
+    0%
+    {
+        color:hsla(0, 0%, 100%, 0.9)
+    }
+    50%
+    {
+        color:rgba(254, 141, 141, 0);
+    }
+    100%
+    {
+        color: hsla(0, 0%, 100%, 0.9)
+    }
+}

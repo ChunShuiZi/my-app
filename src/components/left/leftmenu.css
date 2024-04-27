@@ -1,0 +1,28 @@
+.Actionmenu{ 
+    margin:6px;float: left;width: 83%;margin-left:12%;
+    height: 503px;border:2px solid rgba(255, 255, 255, 0.7);border-radius: 8px 8px 8px 8px;
+    overflow: scroll;
+    overflow-x: hidden;
+}
+.Button{ font-family: CN1;letter-spacing: 0.5px;
+    float: left;width: 94px;margin-left:12%;margin-top:8px;margin-right:6px;
+    height: 42px;border:2px solid rgba(255, 255, 255, 0.7);border-radius: 8px 8px 8px 8px;
+    line-height: 42px;color: rgba(255, 255, 255, 0.9);font-size: 14px;
+}
+.Button2{ font-family: CN1;letter-spacing: 0.5px;
+    float: left;width: 94px;margin-left:3px;margin-top:8px;
+    height: 42px;border:2px solid rgba(255, 255, 255, 0.7);border-radius: 8px 8px 8px 8px;
+    line-height: 42px;color: rgba(255, 255, 255, 0.9);font-size: 14px;
+}
+.Button:hover {
+    background-color: rgba(254, 141, 197, 0.25);
+}
+.Button2:hover {
+    background-color: rgba(254, 141, 197, 0.25);
+}
+.Button:active {
+    transform:  scale(0.98); 
+ }
+ .Button2:active {
+    transform:  scale(0.98); 
+ }

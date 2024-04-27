@@ -1,0 +1,31 @@
+.Chatmenu{ 
+    margin:6px;float: left;
+    height: 400px;width: 820px;border:2px solid rgba(255, 255, 255, 0.7);border-radius: 8px 8px 8px 8px;
+    overflow: scroll;
+    overflow-x: hidden;
+}
+.Textbox{ 
+    margin:6px;margin-top:8px;float: left;
+    height: 145px;width: 713px;border:2px solid rgba(255, 255, 255, 0.7);border-radius: 8px 8px 8px 8px;
+}
+.ChatText{ 
+    margin:8px;float: left;resize:none;font-size: 16px;color: rgba(255, 255, 255, 0.9);
+    height: 120px;width: 689px;border:2px solid transparent;border-radius: 8px 8px 8px 8px;
+    background-color:transparent;font-family: CN1;letter-spacing: 0.5px;font-weight: lighter;
+}
+.ChatText:focus {
+    outline: none;  /* 移除默认的蓝色边框 */
+    border: 2px solid transparent;  /* 设置新的边框颜色 */
+  }
+.Setbox{ 
+    margin-top:8px;float: left;font-family: CN1;letter-spacing: 0.5px;
+    height: 145px;width: 98px; ;border:2px solid rgba(255, 255, 255, 0.7);border-radius: 8px 8px 8px 8px;
+    line-height: 145px;color: rgba(255, 255, 255, 0.9);font-size: 20px;
+}
+  .Setbox:hover {
+    background-color: hsla(214, 91%, 59%, 0.25);
+
+  }
+  .Setbox:active {
+     transform:  scale(0.99); 
+  }

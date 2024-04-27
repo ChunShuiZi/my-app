@@ -1,0 +1,62 @@
+.slide-in {
+    animation: slide-in-animation 1s ease forwards;
+  }
+  
+  @keyframes slide-in-animation {
+    from {
+      opacity: 0;
+      transform: translateX(2%);
+    }
+    to {
+      opacity: 1;
+      transform: translateX(0%);
+    }
+  }
+  .character-menu, .right-chat-menu, .login-menu {
+    opacity: 0;
+    position: absolute;
+    transition: opacity 0.5s ease;
+  }
+  
+
+.Mainmenu{
+    background-color:rgb(256, 256, 256);border:2px solid #f39be5;border-radius: 8px 8px 8px 8px;font-family:等线;
+    margin: auto;margin-top: 60px;margin-bottom: 35px;
+    height: 580px;width: 1100px; 
+    background: linear-gradient(to right,rgba(241, 189, 252, 0.650),rgba(94, 143, 248, 0.650));
+    
+}
+.Actionmainmenu{ 
+    float: left;
+    height: 565px;width: 22%;
+
+}
+.Chatmainmenu{ 
+    float: left;
+    height: 565px;width: 76%;
+}
+*::-webkit-scrollbar {
+    /*滚动条整体样式*/
+    width: 6px;  /*高宽分别对应横竖滚动条的尺寸*/
+    height: 1px;
+    }
+    *::-webkit-scrollbar-thumb {
+    /*滚动条里面深色条*/
+    border-radius: 5px;
+    box-shadow: inset 0 0 3px rgba(255, 255, 255, 0.3);
+    background: hsla(0, 0%, 100%, 0.15);
+    }
+    *::-webkit-scrollbar-track {
+    /*滚动条里面轨道*/
+    box-shadow: inset 0 0 3px rgba(255, 255, 255, 0.3);
+    border-radius: 5px;
+    background: hsla(0, 0%, 100%, 0.15);
+    }
+@font-face {
+        font-family: CN1;
+        src: url('../resourse/cnc.ttf');
+}    
+     
+.footer{
+        clear:both; text-align:center; font-size: 15px; text-decoration: none;color: hsla(0, 0%, 100%, 0.9);margin-left: 70px;font-family: CN1;
+}

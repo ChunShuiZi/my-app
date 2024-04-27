@@ -1,0 +1,64 @@
+.Loginmenu{ 
+    margin:6px;float: left;
+    height: 562px;width: 820px;border:2px solid rgba(255, 255, 255, 0.7);border-radius: 8px 8px 8px 8px;  
+}
+.ipbox{ 
+    margin:6px;float: left;margin-left:44px;padding: 18px;margin-top: 24px;
+    height: 100px;width: 695px;border:2px solid rgba(255, 255, 255, 0.7);border-radius: 8px 8px 8px 8px;  
+}
+.Remaintext{
+    text-align:center;
+    margin-top: 10px;
+    font-size: 17px;
+    font-family: CN1;
+    color: rgba(255, 255, 255, 0.9);
+    letter-spacing: 2px;
+}
+.LoginText{
+    height: 41px;
+    width:400px; margin-left:35px;margin-top:10px;float: left;
+    font-size: 20px;color: rgba(255, 255, 255, 0.9);font-family: CN1;
+    border:2px solid rgba(255, 255, 255, 0.7);border-radius: 8px 8px 8px 8px;font-weight: bolder;
+    background-color:transparent;resize:none;letter-spacing: 3px;
+}
+.LoginText:focus {
+    outline: none;  /* 移除默认的蓝色边框 */
+    border: 2px solid rgba(255, 255, 255, 0.7);  /* 设置新的边框颜色 */
+  }
+  .Loginbutton{ 
+    margin:6px;float: left;margin-top: 11px;margin-left:20px;font-family: CN1;letter-spacing: 0.5px;
+    height: 43px;width: 94px; ;border:2px solid rgba(255, 255, 255, 0.7);border-radius: 8px 8px 8px 8px;
+    line-height: 42px;color: rgba(255, 255, 255, 0.9);font-size: 14px;text-align:center;
+}
+.Getbutton{ 
+    margin:6px;float: left;margin-top: 11px;font-family: CN1;letter-spacing: 0.5px;
+    height: 43px;width: 94px; ;border:2px solid rgba(255, 255, 255, 0.7);border-radius: 8px 8px 8px 8px;
+    line-height: 42px;color: rgba(255, 255, 255, 0.9);font-size: 14px;text-align:center;
+
+}
+.Loginbutton:hover {
+    background-color: hsla(214, 91%, 59%, 0.35);
+}
+.Getbutton:hover {
+    background-color: hsla(214, 91%, 59%, 0.35);
+}
+.Loginbutton:active {
+    transform:  scale(0.98); 
+ }
+ .Getbutton:active {
+    transform:  scale(0.98); 
+ }
+ .title{
+    font-size: 25px;letter-spacing: 14px;margin:25px;margin-bottom: 35px;
+ }
+ .notice{
+    margin:6px;float: left;margin-top: 14px;margin-left:44px;font-family: CN1;padding: 18px;
+    height: 310px;width: 695px; ;border:2px solid rgba(255, 255, 255, 0.7);border-radius: 8px 8px 8px 8px;
+    color: rgba(255, 255, 255, 0.9);font-size: 17px;letter-spacing: 1px;padding-top: 25px;
+ }
+ .notice2{
+    line-height: 35px;
+ }
+ .connect{
+    margin-top: 75px;
+ }

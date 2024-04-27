@@ -1,0 +1,12 @@
+.Mychatpicture{
+    width:7%;border-radius: 100%;float:right;margin-right: 20px;border:2px solid rgba(255, 255, 255, 0.7);margin-top: 3px;
+}
+.MychatText{
+    margin-right: 12%;background-color:rgba(250, 125, 125,0.4);border-radius: 8px 8px 8px 8px;padding: 18px;
+    color:rgba(255, 255, 255, 0.9);
+    border:2px solid rgba(255, 255, 255, 0.7);margin-top: 2px;font-family: CN1;letter-spacing: 0.5px;font-weight: lighter;
+    line-height: 25px;
+}
+.Mychat{
+    margin-top: 2%;margin-left: 2%;margin-bottom: 2%;
+}

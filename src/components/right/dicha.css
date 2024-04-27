@@ -1,0 +1,52 @@
+.ChaMain{
+    border-radius: 8px 8px 8px 8px;
+    padding:23px;
+    padding-left:20px;
+    padding-right:20px;
+    padding-top:18px;
+    margin-top: 10px;margin-bottom: 10px;margin-left: 21.5px;
+    background-color: rgba(111, 98, 255, 0.25);
+    height: 45px;
+    border:2px solid rgba(255, 255, 255, 0.7);
+    width: 94px;float: left;
+}
+.ChaPic{
+    font-size: 15px;
+    color: rgba(255, 255, 255, 0.9);
+    font-family: CN1;letter-spacing: 0.5px;font-weight: normal;
+    height: 70%;
+    width: 100px;
+    white-space: nowrap;  
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.ChaName{
+    font-size: 13px;
+    color:rgba(255, 255, 255, 0.9);
+    font-family: CN1;letter-spacing: 0.5px;font-weight: lighter;
+    height: 40%;
+    width: 100px;
+    white-space: nowrap;  
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.ChaMain:hover {
+    animation: animatech 5s linear infinite; 
+}
+.ChaMain:active {
+    transform:  scale(0.99); 
+ }
+@keyframes animatech {
+    0%
+    {
+        background-color: rgba(111, 98, 255, 0.5);
+    }
+    50%
+    {
+        background-color:rgba(111, 98, 255, 0.25);
+    }
+    100%
+    {
+        background-color: rgba(111, 98, 255, 0.5);
+    }
+}
